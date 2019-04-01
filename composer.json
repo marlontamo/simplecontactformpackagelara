@@ -1,0 +1,19 @@
+{
+    "name": "atom/contact",
+    "description": "this will send email message to admin and save contact query in the database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "marlontamo",
+            "email": "marlontamo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\Contact\\": "src/"
+        }
+    },
+}
